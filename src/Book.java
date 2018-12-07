@@ -1,4 +1,6 @@
+
 import java.util.Date;
+import java.util.Random;
 
 public class Book {
     private int pages;
@@ -6,7 +8,18 @@ public class Book {
     private String title;
     private String isbn;
 
-    public Book(){}
+    public Book() {
+
+    }
+
+    public Book(int seiten, Date date, String Titel, String isbnum)
+    {
+        pages=seiten;
+        released=date;
+        title=Titel;
+        isbn=isbnum;
+
+    }
 
     public void setPages(int pages) {
         this.pages = pages;
