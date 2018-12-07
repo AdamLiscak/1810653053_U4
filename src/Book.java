@@ -14,10 +14,10 @@ public class Book {
 
     public Book(int seiten, Date date, String Titel, String isbnum)
     {
-        pages=seiten;
-        released=date;
-        title=Titel;
-        isbn=isbnum;
+        setPages(seiten);
+        setReleased(date);
+        setTitle(Titel);
+        setIsbn(isbnum);
 
     }
 
